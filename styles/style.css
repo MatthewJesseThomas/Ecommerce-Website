@@ -1,0 +1,32 @@
+/* Define custom variables */
+:root {
+    --primaryColor: darkcyan;
+    --secondaryColor:#262829;
+    --alternativeColor: rgb(12, 46, 110);
+    --redColor: rgb(102, 11, 11);
+    /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
+    --mainBoxShadow: .3vw .3vw 1vw rgba(120, 200, 87, 11);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Styles */
+.logo {
+    height: 8rem;
+    scale: 1.055;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+.logo:hover {
+    scale: 1.1;
+}
+.nav-link:hover {
+    color: darkcyan !important;
+    scale: 1.05;
+  }
+.colorA {
+    background-color: var(--secondaryColor);
+}

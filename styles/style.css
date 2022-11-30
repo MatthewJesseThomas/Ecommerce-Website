@@ -27,6 +27,6 @@
     color: darkcyan !important;
     scale: 1.05;
   }
-.colorA {
+.footer {
     background-color: var(--secondaryColor);
 }
